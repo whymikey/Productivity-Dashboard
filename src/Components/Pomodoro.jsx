@@ -1,8 +1,8 @@
 import { useState, useEffect, use } from "react";
 
 const Pomodoro = ({ activeHabit, onFinish }) => {
-  const totalTime = 0.1 * 60;
-  const [time, setTime] = useState(0.1 * 60);
+  const totalTime = 25 * 60;
+  const [time, setTime] = useState(25 * 60);
   const [isRunning, setIsRunning] = useState(false);
 
   const circumference = 2 * Math.PI * 100;
