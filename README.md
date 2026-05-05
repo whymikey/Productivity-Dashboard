@@ -1,16 +1,80 @@
-# React + Vite
+<p align="center">
+<img src="https://img.shields.io/badge/HTML5-orange" alt="HTML">
+<img src="https://img.shields.io/badge/CSS3-blue" alt="CSS">
+<img src="https://img.shields.io/badge/JavaScript-yellow" alt="JavaScript">
+<img src="https://img.shields.io/badge/React-61dafb" alt="React">
+<img src="https://img.shields.io/badge/TailwindCSS-38bdf8" alt="Tailwind">
+<img src="https://img.shields.io/badge/Vite-purple" alt="Vite">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👀 Preview
+<p align="center">
+<img src="YOUR_SCREENSHOT_URL_HERE" width="1920">
+</p>
 
-Currently, two official plugins are available:
+💡 About
+Productivity Dashboard — это современное приложение для отслеживания привычек, прогресса и личной продуктивности.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Пользователь может:
 
-## React Compiler
+добавлять привычки
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+удалять привычки
 
-## Expanding the ESLint configuration
+отслеживать XP
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+повышать уровни
+
+видеть прогресс в процентах
+
+сохранять данные между перезагрузками (localStorage)
+
+Проект создан как практическая работа по React и TailwindCSS, демонстрируя работу с состоянием, компонентами, локальным хранилищем и UI‑анимациями.
+
+✨ Features
+Добавление новых привычек
+
+Удаление привычек
+
+Подсчёт XP и уровней
+
+Прогресс‑бар с анимацией
+
+Сохранение данных в localStorage
+
+Адаптивный интерфейс
+
+Чистая компонентная архитектура
+
+🌐 Live Demo
+(вставь ссылку после деплоя)  
+Например:
+https://your-username.github.io/productivity-dashboard/
+
+🛠 Tech Stack
+HTML5 – структура
+
+CSS3 / TailwindCSS – стилизация
+
+JavaScript (ES6+) – логика
+
+React – компонентная архитектура
+
+Vite – сборка и dev‑сервер
+
+LocalStorage – хранение данных
+
+⚙️ Installation & Run
+Клонируй репозиторий:
+
+bash
+git clone https://github.com/your-username/productivity-dashboard
+cd productivity-dashboard
+Установи зависимости:
+
+bash
+npm install
+Запусти проект:
+
+bash
+npm run 
