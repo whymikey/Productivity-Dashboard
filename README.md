@@ -9,7 +9,7 @@
 
 👀 Preview
 <p align="center">
-<img src="YOUR_SCREENSHOT_URL_HERE" width="1920">
+<img src="https://i.ibb.co/Xx39TT24/productivity-dashboard.png" width="1920">
 </p>
 
 💡 About
@@ -47,9 +47,8 @@ Productivity Dashboard — это современное приложение д
 Чистая компонентная архитектура
 
 🌐 Live Demo
-(вставь ссылку после деплоя)  
-Например:
-https://your-username.github.io/productivity-dashboard/
+
+https://productivity-dashboard-khaki.vercel.app/
 
 🛠 Tech Stack
 HTML5 – структура
@@ -67,14 +66,12 @@ LocalStorage – хранение данных
 ⚙️ Installation & Run
 Клонируй репозиторий:
 
+```
 bash
 git clone https://github.com/your-username/productivity-dashboard
 cd productivity-dashboard
-Установи зависимости:
 
-bash
 npm install
-Запусти проект:
 
-bash
 npm run 
+```
