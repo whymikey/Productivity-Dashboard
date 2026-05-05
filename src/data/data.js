@@ -1,0 +1,58 @@
+const habits = [
+  {
+    id: 1,
+    name: "Read",
+    progress: 0,
+    level: 0,
+    xp: 0,
+    color: "#4A90E2",
+    icon: "💧",
+  },
+  {
+    id: 2,
+    name: "Coding",
+    progress: 20,
+    level: 4,
+    xp: 20,
+    color: "#F5A623",
+    icon: "💪",
+  },
+  {
+    id: 3,
+    name: "Workout",
+    progress: 39,
+    level: 1,
+    xp: 496,
+    color: "#F5A623",
+    icon: "💧",
+  },
+  {
+    id: 4,
+    name: "Read",
+    progress: 15,
+    level: 5,
+    xp: 5,
+    color: "#50E3C2",
+    icon: "💧",
+  },
+  {
+    id: 5,
+    name: "Coding",
+    progress: 12,
+    level: 2,
+    xp: 106,
+    color: "#50E3C2",
+    icon: "📚",
+  },
+  {
+    id: 6,
+    name: "Read",
+    progress: 20,
+    level: 5,
+    xp: 236,
+    color: "#50E3C2",
+    icon: "💧",
+  },
+];
+
+export default habits;
