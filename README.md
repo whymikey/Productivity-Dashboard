@@ -9,7 +9,7 @@
 
 👀 Preview
 <p align="center">
-<img src="YOUR_SCREENSHOT_URL_HERE" width="1920">
+<img src="https://i.ibb.co/Xx39TT24/productivity-dashboard.png" width="1920">
 </p>
 
 💡 About
@@ -17,39 +17,34 @@ Productivity Dashboard — это современное приложение д
 
 Пользователь может:
 
-добавлять привычки
+- добавлять привычки
 
-удалять привычки
+- удалять привычки
 
-отслеживать XP
+- отслеживать XP
 
-повышать уровни
+- повышать уровни
 
-видеть прогресс в процентах
+- видеть прогресс в процентах
 
-сохранять данные между перезагрузками (localStorage)
-
-Проект создан как практическая работа по React и TailwindCSS, демонстрируя работу с состоянием, компонентами, локальным хранилищем и UI‑анимациями.
+- сохранять данные между перезагрузками (localStorage)
 
 ✨ Features
 Добавление новых привычек
 
-Удаление привычек
+- Удаление привычек
 
-Подсчёт XP и уровней
+- Подсчёт XP и уровней
 
-Прогресс‑бар с анимацией
+- Прогресс‑бар с анимацией
 
-Сохранение данных в localStorage
+- Сохранение данных в localStorage
 
-Адаптивный интерфейс
-
-Чистая компонентная архитектура
+- Адаптивный интерфейс
 
 🌐 Live Demo
-(вставь ссылку после деплоя)  
-Например:
-https://your-username.github.io/productivity-dashboard/
+
+https://productivity-dashboard-khaki.vercel.app/
 
 🛠 Tech Stack
 HTML5 – структура
@@ -67,14 +62,12 @@ LocalStorage – хранение данных
 ⚙️ Installation & Run
 Клонируй репозиторий:
 
+```
 bash
 git clone https://github.com/your-username/productivity-dashboard
 cd productivity-dashboard
-Установи зависимости:
 
-bash
 npm install
-Запусти проект:
 
-bash
 npm run 
+```
