@@ -8,7 +8,7 @@ const Header = ({ handleClickForm, onClose, setTheme, theme, habits }) => {
 
   return (
     <div className="mb-8">
-      <div className="w-full flex justify-between mb-6">
+      <div className="w-full flex justify-between mb-6 gap-6">
         <div>
           <h1 className="text-4xl leading-tight text-[var(--heading-color)]">
             Productivity Dashboard
@@ -18,7 +18,7 @@ const Header = ({ handleClickForm, onClose, setTheme, theme, habits }) => {
           </p>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col items-center gap-3 md:flex-row md:items-center">
           <button
             onClick={handleClickForm}
             className="flex items-center justify-center w-[7em] h-[3em] text-base font-medium bg-[oklch(55.8%_0.288_302.321)] text-white rounded-[10px] transition hover:brightness-110
@@ -29,7 +29,7 @@ const Header = ({ handleClickForm, onClose, setTheme, theme, habits }) => {
 
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className={`flex justify-center items-center w-14 h-12 border border-black/10 rounded-lg bg-[var(--btn-background-color)] transition ${theme === 'dark' ? 'hover:bg-[var(--card--fill-progress-color)]' : 'hover:bg-gray-100'} hover:shadow-md`}
+            className={`flex justify-center items-center w-[7em] h-[3em] sm:w-14 sm:h-12 border border-black/10 rounded-lg bg-[var(--btn-background-color)] transition ${theme === "dark" ? "hover:bg-[var(--card--fill-progress-color)]" : "hover:bg-gray-100"} hover:shadow-md`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Header = ({ handleClickForm, onClose, setTheme, theme, habits }) => {
         </div>
       </div>
 
-      <div className="shadow-md p-6 flex items-center gap-6">
+      <div className="shadow-md p-6 flex items-center gap-5">
         <div className="flex flex-col items-center gap-3">
           <div
             className="w-[120px] h-[120px] rounded-full p-[6px] flex items-center justify-center relative"
@@ -77,9 +77,11 @@ const Header = ({ handleClickForm, onClose, setTheme, theme, habits }) => {
 
         <div className="w-full">
           <div className="flex justify-between mb-2">
-            <h2 className="text-xl font-semibold text-[var(--heading-color)]">Why</h2>
+            <h2 className="text-xl font-semibold text-[var(--heading-color)]">
+              Why
+            </h2>
 
-            <div className="flex items-center gap-2 text-sm">
+            <div className="flex items-center gap-1.5 md:gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -89,11 +91,13 @@ const Header = ({ handleClickForm, onClose, setTheme, theme, habits }) => {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="text-orange-500"
+                className="text-orange-500 "
               >
                 <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
               </svg>
-              <span className="text-[var(--heading-color)] text-lg">7 day streak</span>
+              <span className="text-[var(--heading-color)] text-base md:text-lg">
+                7 day streak
+              </span>
             </div>
           </div>
 
